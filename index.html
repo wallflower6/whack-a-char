@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whack A Character!</title>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Whack-a-character! <span class="score">0</span></h1>
+    <div class="buttons">
+    <button onClick="startGame()" class="button">Start!</button>
+    <button id="modalBtn" class="button">Rules</button>
+    </div>
+
+    <div id="rulesModal" class="modal">
+        <div class="modal-content">
+            <span id="closeBtn">&times;</span>
+            <div class="names">
+                <img class="smallImg" src="images/hiro.png" />
+                <p><strong>Hiro</strong>: <strong>200</strong> points</p>
+            </div>
+
+            <div class="names">
+                <img class="smallImg" src="images/baymax.png" />
+                <p><strong>Baymax</strong>: <strong>-400</strong> points</p>
+            </div>
+
+            <div class="names">
+                <img class="smallImg" src="images/astrid.png" />
+                <p><strong>Astrid</strong>: <strong>300</strong> points</p>
+            </div>
+
+            <div class="names">
+                <img class="smallImg" src="images/hiccup.png" />
+                <p><strong>Hiccup</strong>: <strong>250</strong> points</p>
+            </div>
+
+            <div class="names">
+                <img class="smallImg" src="images/toothless.png" />
+                <p><strong>Toothless</strong>: <strong>-500</strong> points</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="game">
+        <div class="hole hole1">
+            <div class="mole"></div>
+        </div>
+        <div class="hole hole2">
+            <div class="mole"></div>
+        </div>
+        <div class="hole hole3">
+            <div class="mole"></div>
+        </div>
+        <div class="hole hole4">
+            <div class="mole"></div>
+        </div>
+        <div class="hole hole5">
+            <div class="mole"></div>
+        </div>
+        <div class="hole hole6">
+            <div class="mole"></div>
+        </div>
+    </div>
+
+    <audio id="Hiro" src="sounds/hiro.mp3"></audio>
+    <audio id="Astrid" src="sounds/astrid.mp3"></audio>
+    <audio id="Baymax" src="sounds/baymax.mp3"></audio>
+    <audio id="Hiccup" src="sounds/hiccup.mp3"></audio>
+    <audio id="Toothless" src="sounds/toothless.mp3"></audio>
+    <audio id="bonk" src="sounds/pop.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
