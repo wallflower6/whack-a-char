@@ -1,8 +1,14 @@
 # whack-a-pal
-Play it here -> https://wallflower6.github.io/whack-a-char/ 
 <br>
 Extended from the JS30 Whack-A-Mole Tutorial
 (https://github.com/wesbos/JavaScript30)
+<br>
+
+It can be played here -> https://wallflower6.github.io/whack-a-char/ 
+
+<br>
+
+Images are from the Internet, sound clips are from Youtube videos, and the mallet cursor is from the TNT Staff Smasher game on Neopets.
 
 <br>
 
